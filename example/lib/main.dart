@@ -49,7 +49,7 @@ class _MyAppState extends State<MyApp> {
                   // 需要先允许读取存储权限才可以
                   // 需要先允许读取存储权限才可以
                   // 需要先允许读取存储权限才可以
-                  AppInstaller.installApk('/sdcard/app/app-debug.apk');
+                  AppInstaller.installApk('/sdcard/test/xiaomi.apk');
                 },
                 icon: Icon(Icons.arrow_downward),
                 label: Text('Install Apk'),
