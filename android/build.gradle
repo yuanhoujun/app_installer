@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.2.0'
+        classpath 'com.android.tools.build:gradle:8.1.0'
     }
 }
 
@@ -30,6 +30,8 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+
+    namespace = "com.zero.app_installer"
 }
 
 dependencies {
